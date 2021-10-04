@@ -1,0 +1,38 @@
+onds
+
+
+Bubble Sorting:
+		5,000 = .085729 seconds
+		25,000 = 2.63506 seconds
+		100,000 = 45.2612 Seconds
+		250,000 = 286.741 Seconds
+		500,000 = 
+
+
+Selection Sorting:
+		5,000 = .041742 Seconds
+		25,000 = 1.03317 Seconds
+		100,000 = 16.5096 Seconds
+		250,000 = 103.224 Seconds
+		500,000 = 
+
+Insertion Sorting:
+		5,000 = .022383 Seconds
+		25,000 = .551887 Seconds
+		100,000 = 8.82516 Seconds
+		250,000 = 55.0175 Seconds
+		500,000 = 
+
+Quicksort Sorting:
+		5,000 = .000807 Seconds
+		25,000 = .004671 Seconds
+		100,000 = .020114 Seconds
+		250,000 = .05677 Seconds
+		500,000 = .140135 Seconds
+
+Mergesort Sorting:
+		5,000 = .001344 Seconds
+		25,000 = .007864 Seconds
+		100,000 = .032027 Seconds
+		250,000 = .083967 Seconds
+		500,000 = .172063 Seconds
