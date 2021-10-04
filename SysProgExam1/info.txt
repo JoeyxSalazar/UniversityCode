@@ -1,2 +1,0 @@
-This was my first take home final for ECE 322 (Systems Programming) which includes 
-two shell scripts and a .c file
