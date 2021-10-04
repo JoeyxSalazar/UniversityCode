@@ -1,4 +1,3 @@
-
 library ieee;
 use ieee.std_logic_signed.all;
 use ieee.std_logic_1164.all;
@@ -36,11 +35,12 @@ begin
                     end if;
               elsif(opcode = "1001") then
                         if ( Y = "00000000") then 
-	            	Result <= Y+1;
+	            	
 			sign <= '1';
 			else
 			Result <= Y-1;
                     	end if;
+
               elsif(opcode = "1011") then
                     Result <= not X;
               elsif(opcode = "1100") then
@@ -58,4 +58,3 @@ begin
              
        end process;
 end behav;
-
