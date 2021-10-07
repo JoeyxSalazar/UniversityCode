@@ -1,14 +1,14 @@
 Library IEEE;
 Use IEEE.STD_LOGIC_1164.all;
 
-Entity fsm is
+Entity sequencedetector is
 	Port( clk: in STD_LOGIC;
 		init: in STD_LOGIC;
 		Din: in STD_LOGIC;
 		Dout: out STD_LOGIC);
-end fsm;
+end sequencedetector;
 
-Architecture fsm of fsm is
+Architecture sequencedetector of sequencedetector is
 type state_type is (s0,s1,s2,s3,s4);
 signal next_state, present_state: state_type;
 begin
@@ -49,7 +49,11 @@ begin
 					next_state <=s2;
 				end if;
 			When s4 =>
-				next_state <= s0;
+			If Din = '1'then
+				next_state <= s1;
+			else
+				next_state <= s2;
+				end if;
 			When others =>
 				Null;
 			end case;
@@ -63,4 +67,5 @@ begin
 			Dout<='0';
 		end if;
 	end process;
-end fsm;
+end sequencedetector;
+
