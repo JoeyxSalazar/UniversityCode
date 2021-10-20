@@ -1,4 +1,5 @@
 This is a VHDL representation of a traffic light. The sequence goes as follows:
+
 1.)  
   NORTH/SOUTH:Green
   EAST/WEST: Red
